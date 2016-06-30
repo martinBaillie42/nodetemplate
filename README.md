@@ -24,7 +24,7 @@ Vagrant based node template
 
 If you have a Windows host and a Linux guest you can't have the node_modules folder in the synced folder. It has to be in a folder on the guest machine with a symlink to it in the synced folder.
 
-For the Windows to treat the symlink correctly you have to:
+For Windows to treat the symlink correctly you have to:
 
 1. open Windows Command Prompt as administrator
 1. enter `fsutil behavior set SymlinkEvaluation L2L:1 R2R:1 L2R:1 R2L:1`
