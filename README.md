@@ -22,7 +22,7 @@ Vagrant based node template
 
 ## NPM, Vagrant and Windows
 
-If you have a Windows host you can't have the node_modules folder in the synced folder. It has to be in a folder on the Guest machine with a symlink to it in the synced folder.
+If you have a Windows host you can't have the node_modules folder in the synced folder. It has to be in a folder on the guest machine with a symlink to it in the synced folder.
 
 For the Windows to treat the symlink correctly you have to:
 
