@@ -27,6 +27,7 @@ Vagrant.configure(2) do |config|
     rm -rf /vagrant/node_modules
     ln -sf /home/vagrant/node_modules /vagrant/
     npm install -g browser-sync gulp-cli
+    sudo apt-get install git
   SHELL
 
   # Create a forwarded port mapping which allows access to a specific port
